@@ -1,4 +1,8 @@
 import logging
+#testchange
+
+def b():
+    return a()
 
 def f():
     return g()
