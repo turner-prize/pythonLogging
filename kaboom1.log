@@ -2,14 +2,14 @@ DEBUG:root:About to do f().
 DEBUG:root:About to do h().
 ERROR:root:division by zero
 Traceback (most recent call last):
-  File "C:\Users\Dan\Desktop\repos\logging\main.py", line 25, in e
+  File "c:\Users\Turner_prize\Documents\Python Projects\pythonLogging\main.py", line 25, in e
     f()
-  File "C:\Users\Dan\Desktop\repos\logging\main.py", line 4, in f
+  File "c:\Users\Turner_prize\Documents\Python Projects\pythonLogging\main.py", line 4, in f
     return g()
-  File "C:\Users\Dan\Desktop\repos\logging\main.py", line 7, in g
+  File "c:\Users\Turner_prize\Documents\Python Projects\pythonLogging\main.py", line 7, in g
     return h()
-  File "C:\Users\Dan\Desktop\repos\logging\main.py", line 11, in h
+  File "c:\Users\Turner_prize\Documents\Python Projects\pythonLogging\main.py", line 11, in h
     return i()
-  File "C:\Users\Dan\Desktop\repos\logging\main.py", line 14, in i
+  File "c:\Users\Turner_prize\Documents\Python Projects\pythonLogging\main.py", line 14, in i
     1/0
 ZeroDivisionError: division by zero

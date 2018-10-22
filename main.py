@@ -26,8 +26,8 @@ def e():
 
     except Exception as ex:
         logging.exception(ex)
-        raise
-
+        #raise < if the error is left to raise the code will end at the error
+    print("the error was not raised but this still printed!")
 
 if __name__ == '__main__':
     e()
