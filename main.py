@@ -16,7 +16,7 @@ def i():
 def e():
     logging.basicConfig(
         level=logging.DEBUG,
-        filename='kaboom1.log',
+        filename='script.log',
         filemode='w')
 
     logging.debug('About to do f().')
